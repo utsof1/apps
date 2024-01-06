@@ -1,0 +1,50 @@
+name: apps
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.0
+  google_fonts: ^6.1.0
+  flutter_native_splash: ^2.3.6
+  get: ^4.6.5
+  flutter_otp_text_field: ^1.1.1
+  firebase_auth: ^4.15.0
+  cloud_firestore: ^4.13.4
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+#flutter_native_splash:
+# android: true
+# ios: true
+# web: true
+ 
+# color: "#f7f6f1"
+# background_image: "aseets/gre.jpg"
+# color_dark: "#272727"
+# image: "aseets/images/bookish.png"
+# image_dark: "aseets/images/bookish.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - aseets/images/2.jpg
+     - aseets/images/welcome_image/green.png
+     - aseets/images/welcome_image/login_image.png
+     - aseets/logo/logo_image_google.png
+     - aseets/images/forgot_password/forgot_password_image.png
+     - aseets/images/dashboard_image/dash_image.png
